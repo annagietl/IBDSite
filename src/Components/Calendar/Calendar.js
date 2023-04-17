@@ -25,19 +25,41 @@ const CalendarPage = () => {
   return (
     <div>
       <Nav />
-      <h1>Calendar</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="date">Date:</label>
+
+      <h1 id='calendarh1'>Calendar</h1>
+      <h3 id='calendarh3'>Use this calendar to keep track of important medication and appointment dates</h3>
+      <hr/>
+
+      {/* form for users to enter new events */}
+      <form onSubmit={handleSubmit} id='calendarform'>
+        <label htmlFor="date">Date: </label>
         <input type="date" name="date" required />
         <br />
-        <label htmlFor="title">Title:</label>
+        <br />
+        <br />
+        <br />
+
+        <label htmlFor="title">Title: </label>
         <input type="text" name="title" required />
         <br />
-        <label htmlFor="description">Description:</label>
+        <br />
+        <br />
+        <br />
+
+        <label htmlFor="description">Description: </label>
         <textarea name="description" />
         <br />
+        <br />
+
+        <br />
+        <br />
+
         <button type="submit">Add Date</button>
       </form>
+
+      <hr />
+
+      {/* react calendar tool initialize and define */}
       <Calendar
         localizer={localizer}
         events={dates}

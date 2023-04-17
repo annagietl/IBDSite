@@ -64,3 +64,83 @@ nav a:hover {
 #intro {
   text-align: center;
 }
+
+/* calorie tracking page css */
+#macropageh1 {
+  text-align: center;
+}
+
+#macropageh3 {
+  text-align: center;
+}
+
+/* #caloriechart {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+} */
+
+#calorietotal {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+/* notes page css */
+#note {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+#notesh1 {
+  text-align: center;
+}
+
+#notesh3 {
+  text-align: center;
+}
+
+#notesform {
+  text-align: center;
+}
+
+/* calendar page css */
+#calendarh1 {
+  text-align: center;
+}
+
+#calendarh3 {
+  text-align: center;
+}
+
+#calendarform {
+  text-align: center;
+  display: inline-block;
+  display: flex; flex-wrap: wrap;
+}
+
+
+form {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  flex-basis: 50%;
+  text-align: center;
+}
+input {
+  flex-basis: 50%;
+  text-align: center;
+}
+textarea {
+  flex-basis: 50%;
+  text-align: center;
+}
+button {
+  flex-basis: 100%;
+  text-align: center;
+}

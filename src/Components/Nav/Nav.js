@@ -16,7 +16,7 @@ const Nav = () => (
         <a href="/notes">Notes</a>
       </li>
       <li>
-        <a href="moreInfo">Calorie Tracking</a>
+        <a href="/calorie">Calorie Tracking</a>
       </li>
     </ul>
   </nav>
